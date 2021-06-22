@@ -6,9 +6,7 @@
     },
     "displayName": "Clima Pesca Digital",
     "dependencies": {
-        "cordova-ios": "^4.5.5",
         "cordova-plugin-camera": "~4.0.3",
-        "cordova-plugin-console": "~1.0.3",
         "cordova-plugin-dialogs": "~1.2.1",
         "cordova-plugin-statusbar": "~2.1.3",
         "cordova-plugin-whitelist": "~1.2.1",
@@ -18,13 +16,23 @@
         "plugins": {
             "cordova-plugin-statusbar": {},
             "phonegap-plugin-push": {},
-            "cordova-plugin-console": {},
             "cordova-plugin-dialogs": {},
             "cordova-plugin-whitelist": {},
-            "cordova-plugin-camera": {}
+            "cordova-plugin-camera": {},
+            "cordova-plugin-geolocation": {
+                "GEOLOCATION_USAGE_DESCRIPTION": "This app uses your location for maps."
+            },
+            "cordova-plugin-inappbrowser": {}
         },
         "platforms": [
+            "browser",
             "ios"
         ]
+    },
+    "devDependencies": {
+        "cordova-browser": "6.0.0",
+        "cordova-ios": "6.0.0",
+        "cordova-plugin-geolocation": "~4",
+        "cordova-plugin-inappbrowser": "4.0.0"
     }
 }

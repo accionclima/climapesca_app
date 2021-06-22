@@ -1,1 +1,18 @@
-{"name":"Push Demo","gcm_sender_id":"996231231186"}
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Clima Pesca Digital",
+  "short_name": "Clima Pesca Digital",
+  "version": "org.climapesca.app",
+  "description": "Iniciativa de la Organización del Sector Pesquero y Acuícola.",
+  "author": "Disruptive Partners",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "start_url": "index.html",
+  "theme_color": "#ee6e73"
+}
